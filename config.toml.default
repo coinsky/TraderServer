@@ -1,0 +1,42 @@
+# listen port
+port = 8000
+
+# rest proxy
+proxy = true
+lcd = "http://localhost:1317"
+lcdv0 = "http://<?>:1317"
+
+# kafka
+kafka-addrs = "localhost:9092"
+
+# level DB
+data-dir = "data"
+
+# https
+cert-dir = "cert"
+https-toggle = false
+
+# init chain height 
+initChainHeight=0
+
+
+# log
+log-dir = "log"
+# log level: debug | info | warn | error
+log-level = "info"
+# log format: plain | json
+log-format = "plain"
+
+# websocket
+interval = 120
+
+# dir-mode
+
+dir-mode = false
+dir = "/tmp"
+file-prefix = "backup-"
+
+# stop old chain id
+chain-id = "coinexdex"
+# old chain upgrade height
+upgrade-height = 3082739
